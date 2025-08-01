@@ -1,0 +1,1 @@
+package com.example.airline.dto;import lombok.Data;import java.time.LocalDateTime;@Datapublic class BookingRequestDTO {    private Long user; // just the ID    private Long flight;    private String seatNumber;    private LocalDateTime bookingTime;}

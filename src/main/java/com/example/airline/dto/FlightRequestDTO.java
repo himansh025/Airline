@@ -1,0 +1,1 @@
+package com.example.airline.dto;import lombok.Data;import java.time.LocalDate;import java.time.LocalTime;@Datapublic class FlightRequestDTO {    private String airline;    private String source;    private String destination;    private LocalDate departureDate;    private LocalTime departureTime;    private int totalSeats;}
